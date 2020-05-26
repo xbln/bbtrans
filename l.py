@@ -12,7 +12,7 @@ import pandas as pd
 logging.basicConfig(level=logging.INFO, filename='app.log', filemode='w', format='%(asctime)s %(name)s %(funcName)s() %(lineno)i %(levelname)s %(message)s')
 #logging.basicConfig(level=logging.INFO,format='%(asctime)s %(name)s %(levelname)s %(message)s')
 log = logging.getLogger(__name__)
-# neu
+
 def make_orderitems(lis):
 	new_lis = []
 	for dict in lis:
