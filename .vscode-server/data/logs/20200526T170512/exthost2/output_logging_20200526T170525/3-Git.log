@@ -1,0 +1,566 @@
+Looking for git in: git
+Using git 2.17.1 from git
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+Open repository: /home/pydev/bb
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse mytest
+> git rev-parse --symbolic-full-name mytest@{u}
+fatal: no upstream configured for branch 'mytest'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse mytest
+> git rev-parse --symbolic-full-name mytest@{u}
+fatal: no upstream configured for branch 'mytest'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git config --local branch.mytest.github-pr-owner-number
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse mytest
+> git rev-parse --symbolic-full-name mytest@{u}
+fatal: no upstream configured for branch 'mytest'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse mytest
+> git rev-parse --symbolic-full-name mytest@{u}
+fatal: no upstream configured for branch 'mytest'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git config --local branch.mytest.github-pr-owner-number
+> git config --local branch.mytest.github-pr-owner-number
+> git pull --tags
+warning: no common commits
+From https://github.com/xbln/test
+ * [new branch]      mytest     -> origin/mytest
+There is no tracking information for the current branch.
+Please specify which branch you want to merge with.
+See git-pull(1) for details.
+
+    git pull <remote> <branch>
+
+If you wish to set tracking information for this branch you can do so with:
+
+    git branch --set-upstream-to=<remote>/<branch> mytest
+> git checkout -q master
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git config --local branch.master.github-pr-owner-number
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git pull --tags
+There is no tracking information for the current branch.
+Please specify which branch you want to merge with.
+See git-pull(1) for details.
+
+    git pull <remote> <branch>
+
+If you wish to set tracking information for this branch you can do so with:
+
+    git branch --set-upstream-to=<remote>/<branch> master
+> git push -u origin master
+remote: 
+remote: Create a pull request for 'master' on GitHub by visiting:        
+remote:      https://github.com/xbln/test/pull/new/master        
+remote: 
+To https://github.com/xbln/test.git
+ * [new branch]      master -> master
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git config --local branch.master.github-pr-owner-number
+> git pull --tags -r origin master
+From https://github.com/xbln/test
+ * branch            master     -> FETCH_HEAD
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git pull --tags origin master
+From https://github.com/xbln/test
+ * branch            master     -> FETCH_HEAD
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git pull --tags origin master
+From https://github.com/xbln/test
+ * branch            master     -> FETCH_HEAD
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git pull --tags origin mytest
+From https://github.com/xbln/test
+ * branch            mytest     -> FETCH_HEAD
+fatal: refusing to merge unrelated histories
+> git pull --tags origin master
+From https://github.com/xbln/test
+ * branch            master     -> FETCH_HEAD
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git pull --tags origin master
+From https://github.com/xbln/test
+ * branch            master     -> FETCH_HEAD
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git for-each-ref --format %(refname:short)%00%(upstream:short) refs/heads
+> git checkout -q --track origin/mytest
+fatal: A branch named 'mytest' already exists.
+> git checkout -q mytest
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse mytest
+> git rev-parse --symbolic-full-name mytest@{u}
+fatal: no upstream configured for branch 'mytest'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git config --local branch.mytest.github-pr-owner-number
+> git pull --tags -r
+There is no tracking information for the current branch.
+Please specify which branch you want to rebase against.
+See git-pull(1) for details.
+
+    git pull <remote> <branch>
+
+If you wish to set tracking information for this branch you can do so with:
+
+    git branch --set-upstream-to=<remote>/<branch> mytest
+> git pull --tags
+There is no tracking information for the current branch.
+Please specify which branch you want to merge with.
+See git-pull(1) for details.
+
+    git pull <remote> <branch>
+
+If you wish to set tracking information for this branch you can do so with:
+
+    git branch --set-upstream-to=<remote>/<branch> mytest
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse mytest
+> git rev-parse --symbolic-full-name mytest@{u}
+fatal: no upstream configured for branch 'mytest'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git pull --tags origin mytest
+From https://github.com/xbln/test
+ * branch            mytest     -> FETCH_HEAD
+fatal: refusing to merge unrelated histories
+> git pull --tags -r
+There is no tracking information for the current branch.
+Please specify which branch you want to rebase against.
+See git-pull(1) for details.
+
+    git pull <remote> <branch>
+
+If you wish to set tracking information for this branch you can do so with:
+
+    git branch --set-upstream-to=<remote>/<branch> mytest
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse mytest
+> git rev-parse --symbolic-full-name mytest@{u}
+fatal: no upstream configured for branch 'mytest'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse mytest
+> git rev-parse --symbolic-full-name mytest@{u}
+fatal: no upstream configured for branch 'mytest'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse mytest
+> git rev-parse --symbolic-full-name mytest@{u}
+fatal: no upstream configured for branch 'mytest'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse mytest
+> git rev-parse --symbolic-full-name mytest@{u}
+fatal: no upstream configured for branch 'mytest'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse mytest
+> git rev-parse --symbolic-full-name mytest@{u}
+fatal: no upstream configured for branch 'mytest'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse mytest
+> git rev-parse --symbolic-full-name mytest@{u}
+fatal: no upstream configured for branch 'mytest'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show :test/l.py
+> git ls-files --stage -- /home/pydev/bb/test/l.py
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse mytest
+> git rev-parse --symbolic-full-name mytest@{u}
+fatal: no upstream configured for branch 'mytest'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse mytest
+> git rev-parse --symbolic-full-name mytest@{u}
+fatal: no upstream configured for branch 'mytest'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse mytest
+> git rev-parse --symbolic-full-name mytest@{u}
+fatal: no upstream configured for branch 'mytest'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/pydev/bb/test/l.py
+> git show :test/l.py
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse mytest
+> git rev-parse --symbolic-full-name mytest@{u}
+fatal: no upstream configured for branch 'mytest'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse mytest
+> git rev-parse --symbolic-full-name mytest@{u}
+fatal: no upstream configured for branch 'mytest'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse mytest
+> git rev-parse --symbolic-full-name mytest@{u}
+fatal: no upstream configured for branch 'mytest'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse mytest
+> git rev-parse --symbolic-full-name mytest@{u}
+fatal: no upstream configured for branch 'mytest'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse mytest
+> git rev-parse --symbolic-full-name mytest@{u}
+fatal: no upstream configured for branch 'mytest'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/pydev/bb/test/l.py
+> git show :test/l.py
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse mytest
+> git rev-parse --symbolic-full-name mytest@{u}
+fatal: no upstream configured for branch 'mytest'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse mytest
+> git rev-parse --symbolic-full-name mytest@{u}
+fatal: no upstream configured for branch 'mytest'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/pydev/bb/test/l.py
+> git show :test/l.py
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse mytest
+> git rev-parse --symbolic-full-name mytest@{u}
+fatal: no upstream configured for branch 'mytest'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse mytest
+> git rev-parse --symbolic-full-name mytest@{u}
+fatal: no upstream configured for branch 'mytest'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/pydev/bb/test/l.py
+> git show :test/l.py
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse mytest
+> git rev-parse --symbolic-full-name mytest@{u}
+fatal: no upstream configured for branch 'mytest'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse mytest
+> git rev-parse --symbolic-full-name mytest@{u}
+fatal: no upstream configured for branch 'mytest'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/pydev/bb/test/l.py
+> git show :test/l.py
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse mytest
+> git rev-parse --symbolic-full-name mytest@{u}
+fatal: no upstream configured for branch 'mytest'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse mytest
+> git rev-parse --symbolic-full-name mytest@{u}
+fatal: no upstream configured for branch 'mytest'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/pydev/bb/test/l.py
+> git show :test/l.py
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse mytest
+> git rev-parse --symbolic-full-name mytest@{u}
+fatal: no upstream configured for branch 'mytest'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse mytest
+> git rev-parse --symbolic-full-name mytest@{u}
+fatal: no upstream configured for branch 'mytest'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/pydev/bb/test/l.py
+> git show :test/l.py
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse mytest
+> git rev-parse --symbolic-full-name mytest@{u}
+fatal: no upstream configured for branch 'mytest'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse mytest
+> git rev-parse --symbolic-full-name mytest@{u}
+fatal: no upstream configured for branch 'mytest'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/pydev/bb/test/l.py
+> git show :test/l.py
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse mytest
+> git rev-parse --symbolic-full-name mytest@{u}
+fatal: no upstream configured for branch 'mytest'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse mytest
+> git rev-parse --symbolic-full-name mytest@{u}
+fatal: no upstream configured for branch 'mytest'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/pydev/bb/test/l.py
+> git show :test/l.py
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse mytest
+> git rev-parse --symbolic-full-name mytest@{u}
+fatal: no upstream configured for branch 'mytest'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse mytest
+> git rev-parse --symbolic-full-name mytest@{u}
+fatal: no upstream configured for branch 'mytest'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/pydev/bb/test/l.py
+> git show :test/l.py
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse mytest
+> git rev-parse --symbolic-full-name mytest@{u}
+fatal: no upstream configured for branch 'mytest'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse mytest
+> git rev-parse --symbolic-full-name mytest@{u}
+fatal: no upstream configured for branch 'mytest'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/pydev/bb/test/l.py
+> git show :test/l.py
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse mytest
+> git rev-parse --symbolic-full-name mytest@{u}
+fatal: no upstream configured for branch 'mytest'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse mytest
+> git rev-parse --symbolic-full-name mytest@{u}
+fatal: no upstream configured for branch 'mytest'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/pydev/bb/test/l.py
+> git show :test/l.py
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse mytest
+> git rev-parse --symbolic-full-name mytest@{u}
+fatal: no upstream configured for branch 'mytest'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse mytest
+> git rev-parse --symbolic-full-name mytest@{u}
+fatal: no upstream configured for branch 'mytest'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/pydev/bb/test/l.py
+> git show :test/l.py
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse mytest
+> git rev-parse --symbolic-full-name mytest@{u}
+fatal: no upstream configured for branch 'mytest'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template

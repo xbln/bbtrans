@@ -1,0 +1,24 @@
+[2020-05-27 01:46:02.745] [exthost] [info] extension host started
+[2020-05-27 01:46:02.832] [exthost] [info] ExtensionService#_doActivateExtension ms-python.python {"startup":false,"extensionId":{"value":"ms-python.python","_lower":"ms-python.python"},"activationEvent":"onLanguage:python"}
+[2020-05-27 01:46:02.832] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/pydev/.vscode-server/extensions/ms-python.python-2020.5.80290/out/client/extension
+[2020-05-27 01:46:03.145] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2020-05-27 01:46:03.146] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/pydev/.vscode-server/bin/5763d909d5f12fe19f215cbfdd29a91c0fa9208a/extensions/debug-auto-launch/dist/extension
+[2020-05-27 01:46:03.149] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"*"}
+[2020-05-27 01:46:03.149] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/pydev/.vscode-server/bin/5763d909d5f12fe19f215cbfdd29a91c0fa9208a/extensions/emmet/dist/extension
+[2020-05-27 01:46:03.168] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"GitHub.vscode-pull-request-github","_lower":"github.vscode-pull-request-github"},"activationEvent":"*"}
+[2020-05-27 01:46:03.168] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/pydev/.vscode-server/bin/5763d909d5f12fe19f215cbfdd29a91c0fa9208a/extensions/git/dist/main
+[2020-05-27 01:46:03.210] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication {"startup":true,"extensionId":{"value":"GitHub.vscode-pull-request-github","_lower":"github.vscode-pull-request-github"},"activationEvent":"*"}
+[2020-05-27 01:46:03.210] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/pydev/.vscode-server/bin/5763d909d5f12fe19f215cbfdd29a91c0fa9208a/extensions/github-authentication/dist/extension.js
+[2020-05-27 01:46:03.219] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"*"}
+[2020-05-27 01:46:03.219] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/pydev/.vscode-server/bin/5763d909d5f12fe19f215cbfdd29a91c0fa9208a/extensions/merge-conflict/dist/extension
+[2020-05-27 01:46:03.222] [exthost] [info] ExtensionService#_doActivateExtension vscode.search-result {"startup":true,"extensionId":{"value":"vscode.search-result","_lower":"vscode.search-result"},"activationEvent":"*"}
+[2020-05-27 01:46:03.222] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/pydev/.vscode-server/bin/5763d909d5f12fe19f215cbfdd29a91c0fa9208a/extensions/search-result/dist/extension.js
+[2020-05-27 01:46:03.223] [exthost] [info] ExtensionService#_doActivateExtension vscode.vscode-account {"startup":true,"extensionId":{"value":"vscode.vscode-account","_lower":"vscode.vscode-account"},"activationEvent":"*"}
+[2020-05-27 01:46:03.223] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/pydev/.vscode-server/bin/5763d909d5f12fe19f215cbfdd29a91c0fa9208a/extensions/vscode-account/dist/extension.js
+[2020-05-27 01:46:03.231] [exthost] [info] ExtensionService#_doActivateExtension donjayamanne.githistory {"startup":true,"extensionId":{"value":"donjayamanne.githistory","_lower":"donjayamanne.githistory"},"activationEvent":"*"}
+[2020-05-27 01:46:03.231] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/pydev/.vscode-server/extensions/donjayamanne.githistory-0.6.5/dist/src/extension
+[2020-05-27 01:46:03.584] [exthost] [info] Extension 'ms-python.python' uses a document selector without scheme. Learn more about this: https://go.microsoft.com/fwlink/?linkid=872305
+[2020-05-27 01:46:03.903] [exthost] [info] eager extensions activated
+[2020-05-27 01:46:04.070] [exthost] [info] ExtensionService#_doActivateExtension GitHub.vscode-pull-request-github {"startup":true,"extensionId":{"value":"GitHub.vscode-pull-request-github","_lower":"github.vscode-pull-request-github"},"activationEvent":"*"}
+[2020-05-27 01:46:04.071] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/pydev/.vscode-server/extensions/github.vscode-pull-request-github-0.16.0/media/extension
+[2020-05-27 01:46:04.682] [exthost] [info] Extension 'GitHub.vscode-pull-request-github' uses a document selector without scheme. Learn more about this: https://go.microsoft.com/fwlink/?linkid=872305

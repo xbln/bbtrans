@@ -1,0 +1,20 @@
+[2020-05-25 22:12:37.152] [remoteagent] [info] 
+
+*
+* Visual Studio Code Server
+*
+* Reminder: You may only use this software with Visual Studio family products,
+* as described in the license https://aka.ms/vscode-remote/license
+*
+
+
+[2020-05-25 22:12:37.152] [remoteagent] [info] Extension host agent started.
+[2020-05-25 22:12:37.379] [remoteagent] [info] Deleted from disk ms-python.python /home/pydev/.vscode-server/extensions/ms-python.python-2020.5.78807
+[2020-05-25 22:12:37.705] [remoteagent] [info] [127.0.0.1][e3c07887][ManagementConnection] New connection established.
+[2020-05-25 22:12:37.706] [remoteagent] [info] [127.0.0.1][45a6372c][ExtensionHostConnection] New connection established.
+[2020-05-25 22:12:37.825] [remoteagent] [info] [127.0.0.1][45a6372c][ExtensionHostConnection] <16660> Launched Extension Host Process.
+[2020-05-26 04:03:49.468] [remoteagent] [info] [127.0.0.1][e3c07887][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[2020-05-26 07:03:42.410] [remoteagent] [info] [127.0.0.1][45a6372c][ExtensionHostConnection] <16660> Extension Host Process exited with code: 0, signal: null.
+[2020-05-26 07:03:42.411] [remoteagent] [info] Last EH closed, waiting before shutting down
+[2020-05-26 07:03:49.471] [remoteagent] [info] [127.0.0.1][e3c07887][ManagementConnection] The reconnection grace time of 3h has expired, so the connection will be disposed.
+[2020-05-26 07:08:42.475] [remoteagent] [info] Last EH closed, shutting down

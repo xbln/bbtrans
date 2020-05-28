@@ -1,0 +1,46 @@
+[2020-05-26 11:09:52.320] [remoteagent] [info] 
+
+*
+* Visual Studio Code Server
+*
+* Reminder: You may only use this software with Visual Studio family products,
+* as described in the license https://aka.ms/vscode-remote/license
+*
+
+
+[2020-05-26 11:09:52.320] [remoteagent] [info] Extension host agent started.
+[2020-05-26 11:10:01.158] [remoteagent] [error] [127.0.0.1][e3c07887][ManagementConnection] Unknown reconnection token.
+[2020-05-26 11:10:18.648] [remoteagent] [info] [127.0.0.1][d21338df][ManagementConnection] New connection established.
+[2020-05-26 11:10:18.652] [remoteagent] [info] [127.0.0.1][0faea25d][ExtensionHostConnection] New connection established.
+[2020-05-26 11:10:18.745] [remoteagent] [info] [127.0.0.1][0faea25d][ExtensionHostConnection] <30318> Launched Extension Host Process.
+[2020-05-26 11:58:43.823] [remoteagent] [info] [127.0.0.1][d21338df][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2020-05-26 11:58:44.859] [remoteagent] [info] [127.0.0.1][0faea25d][ExtensionHostConnection] <30318> Extension Host Process exited with code: 0, signal: null.
+[2020-05-26 11:58:44.859] [remoteagent] [info] Last EH closed, waiting before shutting down
+[2020-05-26 11:59:26.340] [remoteagent] [info] Got delay-shutdown request while in shutdown timeout, delaying
+[2020-05-26 11:59:26.340] [remoteagent] [info] Cancelling previous shutdown timeout
+[2020-05-26 11:59:26.558] [remoteagent] [info] [127.0.0.1][1edf5a49][ManagementConnection] New connection established.
+[2020-05-26 11:59:26.558] [remoteagent] [info] [127.0.0.1][8af2464f][ExtensionHostConnection] New connection established.
+[2020-05-26 11:59:26.561] [remoteagent] [info] [127.0.0.1][8af2464f][ExtensionHostConnection] <31214> Launched Extension Host Process.
+[2020-05-26 11:59:39.657] [remoteagent] [info] [127.0.0.1][1edf5a49][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2020-05-26 11:59:40.674] [remoteagent] [info] [127.0.0.1][8af2464f][ExtensionHostConnection] <31214> Extension Host Process exited with code: 0, signal: null.
+[2020-05-26 11:59:40.674] [remoteagent] [info] Cancelling previous shutdown timeout
+[2020-05-26 11:59:40.674] [remoteagent] [info] Last EH closed, waiting before shutting down
+[2020-05-26 11:59:43.219] [remoteagent] [info] Got delay-shutdown request while in shutdown timeout, delaying
+[2020-05-26 11:59:43.219] [remoteagent] [info] Cancelling previous shutdown timeout
+[2020-05-26 11:59:43.549] [remoteagent] [info] [127.0.0.1][43d267a3][ManagementConnection] New connection established.
+[2020-05-26 11:59:43.550] [remoteagent] [info] [127.0.0.1][43e61481][ExtensionHostConnection] New connection established.
+[2020-05-26 11:59:43.552] [remoteagent] [info] [127.0.0.1][43e61481][ExtensionHostConnection] <31370> Launched Extension Host Process.
+[2020-05-26 12:04:43.220] [remoteagent] [info] New EH opened, aborting shutdown
+[2020-05-26 12:59:00.540] [remoteagent] [info] [127.0.0.1][43d267a3][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2020-05-26 12:59:01.570] [remoteagent] [info] [127.0.0.1][43e61481][ExtensionHostConnection] <31370> Extension Host Process exited with code: 0, signal: null.
+[2020-05-26 12:59:01.570] [remoteagent] [info] Last EH closed, waiting before shutting down
+[2020-05-26 12:59:13.375] [remoteagent] [info] Got delay-shutdown request while in shutdown timeout, delaying
+[2020-05-26 12:59:13.375] [remoteagent] [info] Cancelling previous shutdown timeout
+[2020-05-26 12:59:13.636] [remoteagent] [info] [127.0.0.1][033c21f5][ManagementConnection] New connection established.
+[2020-05-26 12:59:13.636] [remoteagent] [info] [127.0.0.1][42717d42][ExtensionHostConnection] New connection established.
+[2020-05-26 12:59:13.639] [remoteagent] [info] [127.0.0.1][42717d42][ExtensionHostConnection] <32708> Launched Extension Host Process.
+[2020-05-26 12:59:44.522] [remoteagent] [info] [127.0.0.1][033c21f5][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2020-05-26 12:59:45.537] [remoteagent] [info] [127.0.0.1][42717d42][ExtensionHostConnection] <32708> Extension Host Process exited with code: 0, signal: null.
+[2020-05-26 12:59:45.537] [remoteagent] [info] Cancelling previous shutdown timeout
+[2020-05-26 12:59:45.537] [remoteagent] [info] Last EH closed, waiting before shutting down
+[2020-05-26 13:04:45.617] [remoteagent] [info] Last EH closed, shutting down

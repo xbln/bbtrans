@@ -1,0 +1,82 @@
+Looking for git in: git
+Using git 2.17.1 from git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+> git rev-parse --show-toplevel
+> git rev-parse --show-toplevel
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+Open repository: /home/pydev/bb
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse mytest
+> git rev-parse --symbolic-full-name mytest@{u}
+fatal: no upstream configured for branch 'mytest'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git config --local branch.mytest.github-pr-owner-number
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse mytest
+> git rev-parse --symbolic-full-name mytest@{u}
+fatal: no upstream configured for branch 'mytest'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git config --local branch.mytest.github-pr-owner-number
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+Open repository: /home/pydev
+> git fetch
+> git status -z -u
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show :bb/bill.py
+> git ls-files --stage -- /home/pydev/bb/bill.py
+> git show :bb/db.py
+> git ls-files --stage -- /home/pydev/bb/db.py
+> git show :bb/bill.py
+> git ls-files --stage -- /home/pydev/bb/bill.py
+> git show :bb/l.py
+> git ls-files --stage -- /home/pydev/bb/l.py
+> git show :bb/dbx.py
+> git ls-files --stage -- /home/pydev/bb/dbx.py
+> git show :bb/l.py
+> git ls-files --stage -- /home/pydev/bb/l.py
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show :bb/env0/lib/python3.6/site-packages/flatten_dict/flatten_dict.py
+> git ls-files --stage -- /home/pydev/bb/env0/lib/python3.6/site-packages/flatten_dict/flatten_dict.py
+> git check-ignore -v -z --stdin
+> git show :bb/l.py
+> git ls-files --stage -- /home/pydev/bb/l.py
+> git check-ignore -v -z --stdin
+> git show :app.log
+> git ls-files --stage -- /home/pydev/app.log
+> git show :bb/l.py
+> git ls-files --stage -- /home/pydev/bb/l.py
+> git show :.vscode/launch.json
+> git ls-files --stage -- /home/pydev/.vscode/launch.json
+> git check-ignore -v -z --stdin
+> git show :bb/l.py
+> git ls-files --stage -- /home/pydev/bb/l.py

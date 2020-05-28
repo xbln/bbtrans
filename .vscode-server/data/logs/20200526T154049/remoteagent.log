@@ -1,0 +1,66 @@
+[2020-05-26 15:40:49.244] [remoteagent] [info] 
+
+*
+* Visual Studio Code Server
+*
+* Reminder: You may only use this software with Visual Studio family products,
+* as described in the license https://aka.ms/vscode-remote/license
+*
+
+
+[2020-05-26 15:40:49.244] [remoteagent] [info] Extension host agent started.
+[2020-05-26 15:40:49.815] [remoteagent] [info] [127.0.0.1][6ea895c5][ManagementConnection] New connection established.
+[2020-05-26 15:40:49.816] [remoteagent] [info] [127.0.0.1][5ed62a35][ExtensionHostConnection] New connection established.
+[2020-05-26 15:40:49.887] [remoteagent] [info] [127.0.0.1][5ed62a35][ExtensionHostConnection] <3359> Launched Extension Host Process.
+[2020-05-26 15:41:00.291] [remoteagent] [info] [127.0.0.1][6ea895c5][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2020-05-26 15:41:01.305] [remoteagent] [info] [127.0.0.1][5ed62a35][ExtensionHostConnection] <3359> Extension Host Process exited with code: 0, signal: null.
+[2020-05-26 15:41:01.306] [remoteagent] [info] Last EH closed, waiting before shutting down
+[2020-05-26 15:41:03.832] [remoteagent] [info] Got delay-shutdown request while in shutdown timeout, delaying
+[2020-05-26 15:41:03.832] [remoteagent] [info] Cancelling previous shutdown timeout
+[2020-05-26 15:41:04.133] [remoteagent] [info] [127.0.0.1][0a22fbd5][ManagementConnection] New connection established.
+[2020-05-26 15:41:04.140] [remoteagent] [info] [127.0.0.1][7f6bde7b][ExtensionHostConnection] New connection established.
+[2020-05-26 15:41:04.143] [remoteagent] [info] [127.0.0.1][7f6bde7b][ExtensionHostConnection] <3514> Launched Extension Host Process.
+[2020-05-26 15:41:56.339] [remoteagent] [info] Installing extension: donjayamanne.githistory
+[2020-05-26 15:41:56.587] [remoteagent] [info] Downloaded extension: donjayamanne.githistory /tmp/1162c02d-8779-48ca-b015-408e13b3cac0
+[2020-05-26 15:41:56.658] [remoteagent] [info] Extracted extension to /home/pydev/.vscode-server/extensions/.donjayamanne.githistory-0.6.5: donjayamanne.githistory
+[2020-05-26 15:41:56.658] [remoteagent] [info] Renamed to /home/pydev/.vscode-server/extensions/donjayamanne.githistory-0.6.5
+[2020-05-26 15:41:56.660] [remoteagent] [info] Installation completed. donjayamanne.githistory
+[2020-05-26 15:41:56.663] [remoteagent] [info] Extensions installed successfully: donjayamanne.githistory
+[2020-05-26 15:42:43.633] [remoteagent] [info] [127.0.0.1][0a22fbd5][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2020-05-26 15:42:44.650] [remoteagent] [info] [127.0.0.1][7f6bde7b][ExtensionHostConnection] <3514> Extension Host Process exited with code: 0, signal: null.
+[2020-05-26 15:42:44.651] [remoteagent] [info] Cancelling previous shutdown timeout
+[2020-05-26 15:42:44.651] [remoteagent] [info] Last EH closed, waiting before shutting down
+[2020-05-26 15:42:47.269] [remoteagent] [info] Got delay-shutdown request while in shutdown timeout, delaying
+[2020-05-26 15:42:47.269] [remoteagent] [info] Cancelling previous shutdown timeout
+[2020-05-26 15:42:47.509] [remoteagent] [info] [127.0.0.1][42a3e400][ManagementConnection] New connection established.
+[2020-05-26 15:42:47.509] [remoteagent] [info] [127.0.0.1][f32733bb][ExtensionHostConnection] New connection established.
+[2020-05-26 15:42:47.511] [remoteagent] [info] [127.0.0.1][f32733bb][ExtensionHostConnection] <3737> Launched Extension Host Process.
+[2020-05-26 15:42:59.526] [remoteagent] [info] [127.0.0.1][42a3e400][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2020-05-26 15:43:00.557] [remoteagent] [info] [127.0.0.1][f32733bb][ExtensionHostConnection] <3737> Extension Host Process exited with code: 0, signal: null.
+[2020-05-26 15:43:00.557] [remoteagent] [info] Cancelling previous shutdown timeout
+[2020-05-26 15:43:00.557] [remoteagent] [info] Last EH closed, waiting before shutting down
+[2020-05-26 15:43:08.505] [remoteagent] [info] Got delay-shutdown request while in shutdown timeout, delaying
+[2020-05-26 15:43:08.505] [remoteagent] [info] Cancelling previous shutdown timeout
+[2020-05-26 15:43:08.853] [remoteagent] [info] [127.0.0.1][eaf11ac9][ManagementConnection] New connection established.
+[2020-05-26 15:43:08.853] [remoteagent] [info] [127.0.0.1][709be22a][ExtensionHostConnection] New connection established.
+[2020-05-26 15:43:08.857] [remoteagent] [info] [127.0.0.1][709be22a][ExtensionHostConnection] <4025> Launched Extension Host Process.
+[2020-05-26 15:44:20.351] [remoteagent] [info] Installing extension: github.vscode-pull-request-github
+[2020-05-26 15:44:20.601] [remoteagent] [info] Downloaded extension: github.vscode-pull-request-github /tmp/71f5cf7a-0575-4609-b950-e6457ee73f6a
+[2020-05-26 15:44:20.690] [remoteagent] [info] Extracted extension to /home/pydev/.vscode-server/extensions/.github.vscode-pull-request-github-0.16.0: github.vscode-pull-request-github
+[2020-05-26 15:44:20.691] [remoteagent] [info] Renamed to /home/pydev/.vscode-server/extensions/github.vscode-pull-request-github-0.16.0
+[2020-05-26 15:44:20.692] [remoteagent] [info] Installation completed. github.vscode-pull-request-github
+[2020-05-26 15:44:20.716] [remoteagent] [info] Extensions installed successfully: github.vscode-pull-request-github
+[2020-05-26 15:44:22.019] [remoteagent] [info] [127.0.0.1][eaf11ac9][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2020-05-26 15:44:23.040] [remoteagent] [info] [127.0.0.1][709be22a][ExtensionHostConnection] <4025> Extension Host Process exited with code: 0, signal: null.
+[2020-05-26 15:44:23.040] [remoteagent] [info] Cancelling previous shutdown timeout
+[2020-05-26 15:44:23.040] [remoteagent] [info] Last EH closed, waiting before shutting down
+[2020-05-26 15:44:25.708] [remoteagent] [info] Got delay-shutdown request while in shutdown timeout, delaying
+[2020-05-26 15:44:25.708] [remoteagent] [info] Cancelling previous shutdown timeout
+[2020-05-26 15:44:25.954] [remoteagent] [info] [127.0.0.1][38f0647c][ManagementConnection] New connection established.
+[2020-05-26 15:44:25.955] [remoteagent] [info] [127.0.0.1][0c837662][ExtensionHostConnection] New connection established.
+[2020-05-26 15:44:25.958] [remoteagent] [info] [127.0.0.1][0c837662][ExtensionHostConnection] <4329> Launched Extension Host Process.
+[2020-05-26 15:49:25.709] [remoteagent] [info] New EH opened, aborting shutdown
+[2020-05-26 16:17:53.859] [remoteagent] [info] [127.0.0.1][38f0647c][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2020-05-26 16:17:54.891] [remoteagent] [info] [127.0.0.1][0c837662][ExtensionHostConnection] <4329> Extension Host Process exited with code: 0, signal: null.
+[2020-05-26 16:17:54.891] [remoteagent] [info] Last EH closed, waiting before shutting down
+[2020-05-26 16:22:54.970] [remoteagent] [info] Last EH closed, shutting down

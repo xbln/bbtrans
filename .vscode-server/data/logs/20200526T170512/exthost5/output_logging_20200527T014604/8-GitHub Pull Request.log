@@ -1,0 +1,5 @@
+[Info] /home/pydev/.ssh/config: ENOENT: no such file or directory, open '/home/pydev/.ssh/config'
+[Info] Looking for git repository
+[Info] Git repository found, initializing review manager and pr tree view.
+[Info] Review> Validate state in progress
+[Info] Review> Validating state...

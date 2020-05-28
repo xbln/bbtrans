@@ -1,0 +1,25 @@
+[2020-05-25 22:12:38.958] [exthost] [info] extension host started
+[2020-05-25 22:12:39.079] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2020-05-25 22:12:39.079] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/pydev/.vscode-server/bin/5763d909d5f12fe19f215cbfdd29a91c0fa9208a/extensions/debug-auto-launch/dist/extension
+[2020-05-25 22:12:39.085] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"*"}
+[2020-05-25 22:12:39.085] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/pydev/.vscode-server/bin/5763d909d5f12fe19f215cbfdd29a91c0fa9208a/extensions/emmet/dist/extension
+[2020-05-25 22:12:39.113] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"vscode.git","_lower":"vscode.git"},"activationEvent":"*"}
+[2020-05-25 22:12:39.113] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/pydev/.vscode-server/bin/5763d909d5f12fe19f215cbfdd29a91c0fa9208a/extensions/git/dist/main
+[2020-05-25 22:12:39.159] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication {"startup":true,"extensionId":{"value":"vscode.github-authentication","_lower":"vscode.github-authentication"},"activationEvent":"*"}
+[2020-05-25 22:12:39.159] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/pydev/.vscode-server/bin/5763d909d5f12fe19f215cbfdd29a91c0fa9208a/extensions/github-authentication/dist/extension.js
+[2020-05-25 22:12:39.171] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"*"}
+[2020-05-25 22:12:39.171] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/pydev/.vscode-server/bin/5763d909d5f12fe19f215cbfdd29a91c0fa9208a/extensions/merge-conflict/dist/extension
+[2020-05-25 22:12:39.174] [exthost] [info] ExtensionService#_doActivateExtension vscode.search-result {"startup":true,"extensionId":{"value":"vscode.search-result","_lower":"vscode.search-result"},"activationEvent":"*"}
+[2020-05-25 22:12:39.174] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/pydev/.vscode-server/bin/5763d909d5f12fe19f215cbfdd29a91c0fa9208a/extensions/search-result/dist/extension.js
+[2020-05-25 22:12:39.175] [exthost] [info] ExtensionService#_doActivateExtension vscode.vscode-account {"startup":true,"extensionId":{"value":"vscode.vscode-account","_lower":"vscode.vscode-account"},"activationEvent":"*"}
+[2020-05-25 22:12:39.175] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/pydev/.vscode-server/bin/5763d909d5f12fe19f215cbfdd29a91c0fa9208a/extensions/vscode-account/dist/extension.js
+[2020-05-25 22:12:39.339] [exthost] [info] eager extensions activated
+[2020-05-25 22:13:00.338] [exthost] [info] ExtensionService#_doActivateExtension ms-python.python {"startup":false,"extensionId":{"value":"ms-python.python","_lower":"ms-python.python"},"activationEvent":"onCommand:python.setInterpreter"}
+[2020-05-25 22:13:00.338] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/pydev/.vscode-server/extensions/ms-python.python-2020.5.80290/out/client/extension
+[2020-05-25 22:13:01.026] [exthost] [info] Extension 'ms-python.python' uses a document selector without scheme. Learn more about this: https://go.microsoft.com/fwlink/?linkid=872305
+[2020-05-26 00:42:35.658] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-server-ready {"startup":false,"extensionId":{"value":"vscode.debug-server-ready","_lower":"vscode.debug-server-ready"},"activationEvent":"onDebugResolve"}
+[2020-05-26 00:42:35.658] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/pydev/.vscode-server/bin/5763d909d5f12fe19f215cbfdd29a91c0fa9208a/extensions/debug-server-ready/dist/extension
+[2020-05-26 01:27:46.347] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.node-debug2 {"startup":false,"extensionId":{"value":"ms-vscode.node-debug","_lower":"ms-vscode.node-debug"},"activationEvent":"onDebugInitialConfigurations"}
+[2020-05-26 01:27:46.347] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/pydev/.vscode-server/bin/5763d909d5f12fe19f215cbfdd29a91c0fa9208a/extensions/ms-vscode.node-debug2/out/src/extension
+[2020-05-26 01:27:46.374] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.node-debug {"startup":false,"extensionId":{"value":"ms-vscode.node-debug","_lower":"ms-vscode.node-debug"},"activationEvent":"onDebugInitialConfigurations"}
+[2020-05-26 01:27:46.374] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/pydev/.vscode-server/bin/5763d909d5f12fe19f215cbfdd29a91c0fa9208a/extensions/ms-vscode.node-debug/dist/extension.js

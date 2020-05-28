@@ -1,0 +1,40 @@
+
+
+*
+* Visual Studio Code Server
+*
+* Reminder: You may only use this software with Visual Studio family products,
+* as described in the license https://aka.ms/vscode-remote/license
+*
+
+
+IP Address: 45.9.63.113
+IP Address: 172.17.0.1
+Extension host agent listening on 40441
+
+
+[10:16:18] Extension host agent started.
+[10:16:19] [127.0.0.1][593d24db][ManagementConnection] Unknown reconnection token.
+[10:16:32] [127.0.0.1][f2e12cc1][ManagementConnection] New connection established.
+[10:16:32] [127.0.0.1][7c2757d6][ExtensionHostConnection] New connection established.
+bash: cannot set terminal process group (-1): Inappropriate ioctl for device
+bash: no job control in this shell
+[10:16:32] [127.0.0.1][7c2757d6][ExtensionHostConnection] <13530> Launched Extension Host Process.
+Error: write EPIPE
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:83:16) {
+  errno: 'EPIPE',
+  code: 'EPIPE',
+  syscall: 'write'
+}
+Error: Unexpected SIGPIPE
+    at process.<anonymous> (/home/pydev/.vscode-server/bin/5763d909d5f12fe19f215cbfdd29a91c0fa9208a/out/bootstrap.js:5:80)
+    at process.emit (events.js:200:13)
+Error: Unexpected SIGPIPE
+    at process.<anonymous> (/home/pydev/.vscode-server/bin/5763d909d5f12fe19f215cbfdd29a91c0fa9208a/out/bootstrap.js:5:80)
+    at process.emit (events.js:200:13)
+[15:24:39] [127.0.0.1][f2e12cc1][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[16:51:00] [127.0.0.1][f2e12cc1][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[16:51:00] [127.0.0.1][f2e12cc1][ManagementConnection] The client has reconnected.
+[16:51:00] [127.0.0.1][7c2757d6][ExtensionHostConnection] The client has reconnected.
+[18:57:11] [127.0.0.1][f2e12cc1][ManagementConnection] The client has reconnected.
+[18:57:11] [127.0.0.1][7c2757d6][ExtensionHostConnection] The client has reconnected.

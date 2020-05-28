@@ -1,0 +1,16 @@
+[2020-05-26 15:40:50.739] [exthost] [info] extension host started
+[2020-05-26 15:40:50.845] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2020-05-26 15:40:50.845] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/pydev/.vscode-server/bin/5763d909d5f12fe19f215cbfdd29a91c0fa9208a/extensions/debug-auto-launch/dist/extension
+[2020-05-26 15:40:50.849] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"*"}
+[2020-05-26 15:40:50.849] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/pydev/.vscode-server/bin/5763d909d5f12fe19f215cbfdd29a91c0fa9208a/extensions/emmet/dist/extension
+[2020-05-26 15:40:50.868] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"vscode.git","_lower":"vscode.git"},"activationEvent":"*"}
+[2020-05-26 15:40:50.868] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/pydev/.vscode-server/bin/5763d909d5f12fe19f215cbfdd29a91c0fa9208a/extensions/git/dist/main
+[2020-05-26 15:40:50.905] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication {"startup":true,"extensionId":{"value":"vscode.github-authentication","_lower":"vscode.github-authentication"},"activationEvent":"*"}
+[2020-05-26 15:40:50.905] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/pydev/.vscode-server/bin/5763d909d5f12fe19f215cbfdd29a91c0fa9208a/extensions/github-authentication/dist/extension.js
+[2020-05-26 15:40:50.914] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"*"}
+[2020-05-26 15:40:50.914] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/pydev/.vscode-server/bin/5763d909d5f12fe19f215cbfdd29a91c0fa9208a/extensions/merge-conflict/dist/extension
+[2020-05-26 15:40:50.916] [exthost] [info] ExtensionService#_doActivateExtension vscode.search-result {"startup":true,"extensionId":{"value":"vscode.search-result","_lower":"vscode.search-result"},"activationEvent":"*"}
+[2020-05-26 15:40:50.916] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/pydev/.vscode-server/bin/5763d909d5f12fe19f215cbfdd29a91c0fa9208a/extensions/search-result/dist/extension.js
+[2020-05-26 15:40:50.917] [exthost] [info] ExtensionService#_doActivateExtension vscode.vscode-account {"startup":true,"extensionId":{"value":"vscode.vscode-account","_lower":"vscode.vscode-account"},"activationEvent":"*"}
+[2020-05-26 15:40:50.917] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/pydev/.vscode-server/bin/5763d909d5f12fe19f215cbfdd29a91c0fa9208a/extensions/vscode-account/dist/extension.js
+[2020-05-26 15:40:50.932] [exthost] [info] eager extensions activated

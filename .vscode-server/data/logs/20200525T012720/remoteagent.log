@@ -1,0 +1,33 @@
+[2020-05-25 01:27:20.501] [remoteagent] [info] 
+
+*
+* Visual Studio Code Server
+*
+* Reminder: You may only use this software with Visual Studio family products,
+* as described in the license https://aka.ms/vscode-remote/license
+*
+
+
+[2020-05-25 01:27:20.501] [remoteagent] [info] Extension host agent started.
+[2020-05-25 01:27:20.826] [remoteagent] [info] [127.0.0.1][44f83450][ManagementConnection] New connection established.
+[2020-05-25 01:27:20.827] [remoteagent] [info] [127.0.0.1][7af4cd19][ExtensionHostConnection] New connection established.
+[2020-05-25 01:27:20.970] [remoteagent] [info] [127.0.0.1][7af4cd19][ExtensionHostConnection] <30222> Launched Extension Host Process.
+[2020-05-25 01:27:22.851] [remoteagent] [info] Installing extension: ms-python.python
+[2020-05-25 01:27:23.503] [remoteagent] [info] Downloaded extension: ms-python.python /tmp/5ea4d0dc-3c2f-4331-a114-1fbad38bd5da
+[2020-05-25 01:27:27.260] [remoteagent] [info] Extracted extension to /home/pydev/.vscode-server/extensions/.ms-python.python-2020.5.80290: ms-python.python
+[2020-05-25 01:27:27.260] [remoteagent] [info] Renamed to /home/pydev/.vscode-server/extensions/ms-python.python-2020.5.80290
+[2020-05-25 01:27:27.266] [remoteagent] [info] Installation completed. ms-python.python
+[2020-05-25 01:27:27.289] [remoteagent] [info] Extensions installed successfully: ms-python.python
+[2020-05-25 01:28:07.928] [remoteagent] [info] [127.0.0.1][44f83450][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2020-05-25 01:28:08.939] [remoteagent] [info] [127.0.0.1][7af4cd19][ExtensionHostConnection] <30222> Extension Host Process exited with code: 0, signal: null.
+[2020-05-25 01:28:08.939] [remoteagent] [info] Last EH closed, waiting before shutting down
+[2020-05-25 01:28:11.597] [remoteagent] [info] Got delay-shutdown request while in shutdown timeout, delaying
+[2020-05-25 01:28:11.598] [remoteagent] [info] Cancelling previous shutdown timeout
+[2020-05-25 01:28:11.826] [remoteagent] [info] [127.0.0.1][2a0e9880][ManagementConnection] New connection established.
+[2020-05-25 01:28:11.827] [remoteagent] [info] [127.0.0.1][9b2bdd14][ExtensionHostConnection] New connection established.
+[2020-05-25 01:28:11.831] [remoteagent] [info] [127.0.0.1][9b2bdd14][ExtensionHostConnection] <30390> Launched Extension Host Process.
+[2020-05-25 01:33:11.599] [remoteagent] [info] New EH opened, aborting shutdown
+[2020-05-25 02:06:50.256] [remoteagent] [info] [127.0.0.1][2a0e9880][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2020-05-25 02:06:51.279] [remoteagent] [info] [127.0.0.1][9b2bdd14][ExtensionHostConnection] <30390> Extension Host Process exited with code: 0, signal: null.
+[2020-05-25 02:06:51.280] [remoteagent] [info] Last EH closed, waiting before shutting down
+[2020-05-25 02:11:51.379] [remoteagent] [info] Last EH closed, shutting down

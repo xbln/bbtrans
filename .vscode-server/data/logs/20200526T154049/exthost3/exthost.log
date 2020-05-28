@@ -1,0 +1,21 @@
+[2020-05-26 15:42:48.604] [exthost] [info] extension host started
+[2020-05-26 15:42:48.753] [exthost] [info] ExtensionService#_doActivateExtension ms-python.python {"startup":false,"extensionId":{"value":"ms-python.python","_lower":"ms-python.python"},"activationEvent":"onLanguage:python"}
+[2020-05-26 15:42:48.753] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/pydev/.vscode-server/extensions/ms-python.python-2020.5.80290/out/client/extension
+[2020-05-26 15:42:49.064] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2020-05-26 15:42:49.064] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/pydev/.vscode-server/bin/5763d909d5f12fe19f215cbfdd29a91c0fa9208a/extensions/debug-auto-launch/dist/extension
+[2020-05-26 15:42:49.067] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"*"}
+[2020-05-26 15:42:49.067] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/pydev/.vscode-server/bin/5763d909d5f12fe19f215cbfdd29a91c0fa9208a/extensions/emmet/dist/extension
+[2020-05-26 15:42:49.089] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"vscode.git","_lower":"vscode.git"},"activationEvent":"*"}
+[2020-05-26 15:42:49.089] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/pydev/.vscode-server/bin/5763d909d5f12fe19f215cbfdd29a91c0fa9208a/extensions/git/dist/main
+[2020-05-26 15:42:49.174] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication {"startup":true,"extensionId":{"value":"vscode.github-authentication","_lower":"vscode.github-authentication"},"activationEvent":"*"}
+[2020-05-26 15:42:49.174] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/pydev/.vscode-server/bin/5763d909d5f12fe19f215cbfdd29a91c0fa9208a/extensions/github-authentication/dist/extension.js
+[2020-05-26 15:42:49.191] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"*"}
+[2020-05-26 15:42:49.191] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/pydev/.vscode-server/bin/5763d909d5f12fe19f215cbfdd29a91c0fa9208a/extensions/merge-conflict/dist/extension
+[2020-05-26 15:42:49.194] [exthost] [info] ExtensionService#_doActivateExtension vscode.search-result {"startup":true,"extensionId":{"value":"vscode.search-result","_lower":"vscode.search-result"},"activationEvent":"*"}
+[2020-05-26 15:42:49.194] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/pydev/.vscode-server/bin/5763d909d5f12fe19f215cbfdd29a91c0fa9208a/extensions/search-result/dist/extension.js
+[2020-05-26 15:42:49.198] [exthost] [info] ExtensionService#_doActivateExtension vscode.vscode-account {"startup":true,"extensionId":{"value":"vscode.vscode-account","_lower":"vscode.vscode-account"},"activationEvent":"*"}
+[2020-05-26 15:42:49.198] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/pydev/.vscode-server/bin/5763d909d5f12fe19f215cbfdd29a91c0fa9208a/extensions/vscode-account/dist/extension.js
+[2020-05-26 15:42:49.235] [exthost] [info] ExtensionService#_doActivateExtension donjayamanne.githistory {"startup":true,"extensionId":{"value":"donjayamanne.githistory","_lower":"donjayamanne.githistory"},"activationEvent":"*"}
+[2020-05-26 15:42:49.235] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/pydev/.vscode-server/extensions/donjayamanne.githistory-0.6.5/dist/src/extension
+[2020-05-26 15:42:49.630] [exthost] [info] eager extensions activated
+[2020-05-26 15:42:49.748] [exthost] [info] Extension 'ms-python.python' uses a document selector without scheme. Learn more about this: https://go.microsoft.com/fwlink/?linkid=872305

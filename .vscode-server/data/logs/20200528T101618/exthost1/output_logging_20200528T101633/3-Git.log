@@ -1,0 +1,343 @@
+Looking for git in: git
+Using git 2.17.1 from git
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+Open repository: /home/pydev
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --local branch.master.github-pr-owner-number
+> git show :bb/app_2020-05-27-22:01.log
+> git ls-files --stage -- /home/pydev/bb/app_2020-05-27-22:01.log
+> git config --get commit.template
+> git status -z -u
+> git check-ignore -v -z --stdin
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git config --local branch.master.github-pr-owner-number
+> git ls-files --stage -- /home/pydev/bb/app_2020-05-27-22:01.log
+> git show :bb/app_2020-05-27-22:01.log
+> git show :bb/app_2020-05-28-06:01.log
+> git ls-files --stage -- /home/pydev/bb/app_2020-05-28-06:01.log
+> git show :bb/app_2020-05-28-09:01.log
+> git ls-files --stage -- /home/pydev/bb/app_2020-05-28-09:01.log
+> git show :bb/app_2020-05-28-06:01.log
+> git ls-files --stage -- /home/pydev/bb/app_2020-05-28-06:01.log
+> git show :bb/app_2020-05-28-09:01.log
+> git ls-files --stage -- /home/pydev/bb/app_2020-05-28-09:01.log
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/pydev/bb/app_2020-05-28-09:01.log
+> git show :bb/app_2020-05-28-09:01.log
+> git ls-files --stage -- /home/pydev/bb/app_2020-05-28-09:01.log
+> git show :bb/app_2020-05-28-09:01.log
+> git show :bb/mail.py
+> git ls-files --stage -- /home/pydev/bb/mail.py
+> git show :bb/l.py
+> git ls-files --stage -- /home/pydev/bb/l.py
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/pydev/bb/l.py
+> git show :bb/l.py
+> git check-ignore -v -z --stdin
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/pydev/bb/l.py
+> git show :bb/l.py
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/pydev/bb/l.py
+> git show :bb/l.py
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/pydev/bb/l.py
+> git show :bb/l.py
+> git show :bb/app_2020-05-28-16:55.log
+> git ls-files --stage -- /home/pydev/bb/app_2020-05-28-16:55.log
+> git check-ignore -v -z --stdin
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :bb/app_2020-05-28-18:01.log
+> git ls-files --stage -- /home/pydev/bb/app_2020-05-28-18:01.log
+> git show :bb/l.py
+> git ls-files --stage -- /home/pydev/bb/l.py
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/pydev/bb/l.py
+> git show :bb/l.py
+> git show :bb/db.py
+> git ls-files --stage -- /home/pydev/bb/db.py
+> git show :bb/zoho.py
+> git ls-files --stage -- /home/pydev/bb/zoho.py
+> git show :bb/l.py
+> git ls-files --stage -- /home/pydev/bb/l.py
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/pydev/bb/l.py
+> git show :bb/l.py
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/pydev/bb/l.py
+> git show :bb/l.py
+> git show :app.log
+> git ls-files --stage -- /home/pydev/app.log
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/pydev/app.log
+> git show :app.log
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :bb/zoho.py
+> git ls-files --stage -- /home/pydev/bb/zoho.py
+> git show :bb/l.py
+> git ls-files --stage -- /home/pydev/bb/l.py
+> git show :app.log
+> git ls-files --stage -- /home/pydev/app.log
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :bb/l.py
+> git ls-files --stage -- /home/pydev/bb/l.py
+> git ls-files --stage -- /home/pydev/bb/l.py
+> git show :bb/l.py
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :bb/zoho.py
+> git ls-files --stage -- /home/pydev/bb/zoho.py
+> git ls-files --stage -- /home/pydev/bb/zoho.py
+> git show :bb/zoho.py
+> git show :bb/l.py
+> git ls-files --stage -- /home/pydev/bb/l.py
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/pydev/bb/l.py
+> git show :bb/l.py
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/pydev/bb/l.py
+> git show :bb/l.py
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/pydev/bb/l.py
+> git show :bb/l.py
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/pydev/bb/l.py
+> git show :bb/l.py
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/pydev/bb/l.py
+> git show :bb/l.py
+> git show :app.log
+> git ls-files --stage -- /home/pydev/app.log
+> git show :bb/l.py
+> git ls-files --stage -- /home/pydev/bb/l.py
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/pydev/bb/l.py
+> git show :bb/l.py
+> git config --local branch.master.github-pr-owner-number
+> git check-ignore -v -z --stdin
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/pydev/bb/l.py
+fatal: your current branch 'master' does not have any commits yet
+> git show :bb/app_2020-05-27-16:44.log
+> git ls-files --stage -- /home/pydev/bb/app_2020-05-27-16:44.log
+> git show :bb/l.py
+> git ls-files --stage -- /home/pydev/bb/l.py
+> git show :app.log
+> git ls-files --stage -- /home/pydev/app.log
+> git show :bb/l.py
+> git ls-files --stage -- /home/pydev/bb/l.py
+> git show :bb/pdb.py
+> git ls-files --stage -- /home/pydev/bb/pdb.py
+> git show :bb/l.py
+> git ls-files --stage -- /home/pydev/bb/l.py
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/pydev/bb/l.py
+> git show :bb/l.py
+> git check-ignore -v -z --stdin
+> git add -A -- .
