@@ -11,13 +11,13 @@ from sqlalchemy import create_engine
 server = 'tcp:sqlserver.cannoba.de' 
 database = 'buntebluete' 
 username = 'SA' 
-password = 'Service0!' 
+password = 'Bbluete0!' 
 
 conn = pyodbc.connect('DRIVER={ODBC Driver 17 for SQL Server};SERVER='+server+';DATABASE='+database+';UID='+username+';PWD='+ password, autocommit = True)
 mycursor = conn.cursor()
 
 #mysqleng = create_engine("mysql+pymysql://{user}:{pw}@sqlserver.cannoba.de/{db}".format(user="root",pw="Service0",db="buntebluete"))
-mssqleng = create_engine("mssql+pyodbc://sa:Service0!@sqlserver.cannoba.de:1433/buntebluete?driver=ODBC+Driver+17+for+SQL+Server")
+mssqleng = create_engine("mssql+pyodbc://sa:Bbluete0!@sqlserver.cannoba.de:1433/buntebluete?driver=ODBC+Driver+17+for+SQL+Server")
 
 #logging.basicConfig(level=logging.INFO, filename='app.log', filemode='w', format='%(asctime)s %(name)s %(funcName)s() %(lineno)i %(levelname)s %(message)s')
 log = logging.getLogger(__name__)

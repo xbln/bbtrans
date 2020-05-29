@@ -228,3 +228,4 @@ def update():
 	backup_tables()
 
 update_all()
+#get_all_zoho_accounts()
