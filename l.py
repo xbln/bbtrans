@@ -88,8 +88,14 @@ def get_all_zoho_deals():
 
 def eliminate_z_accounts_doublettes():
 	x=db.db_get('v_z_accounts_doublettes')
-	zoho.update_specific('Accounts',x)
+	zoho.update_by_id('Accounts',x)
 	get_zoho_accounts()
+
+def reset_change_in_billbee():
+	x=db.db_get('v_reset_accounts_change_in_billbee')
+	zoho.update_by_id('Accounts',x)
+	x=db.db_get('v_reset_contacts_change_in_billbee')
+	zoho.update_by_id('Contacts',x)
 
 def update_bill():
 	x = db.db_get('v_update_customer_addresses')
@@ -210,6 +216,7 @@ def update_all():
 	update_bill()
 	get_all_bill_data()
 	update_all_zoho_data()
+	reset_change_in_billbee()
 	backup_tables()
 
 def update():
@@ -217,6 +224,7 @@ def update():
 	update_bill()
 	get_bill_data()
 	update_zoho_data()
+	reset_change_in_billbee()
 	backup_tables()
 
 update_all()
