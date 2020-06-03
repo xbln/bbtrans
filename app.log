@@ -1,140 +1,55 @@
-2020-05-29 10:57:13,713 zoho get() 125 INFO module Accounts: reading page 1 of records 200
-2020-05-29 10:57:14,643 zoho get() 125 INFO module Accounts: reading page 2 of records 400
-2020-05-29 10:57:15,540 zoho get() 125 INFO module Accounts: reading page 3 of records 600
-2020-05-29 10:57:16,454 zoho get() 125 INFO module Accounts: reading page 4 of records 781
-2020-05-29 10:57:16,458 zoho get() 133 INFO module Accounts: 781 records read from 4 pages in 3 seconds
-2020-05-29 10:57:16,625 __main__ flatten_list() 39 INFO : flattened 781 records
-2020-05-29 10:57:16,630 db db_truncate() 31 INFO table z_accounts: truncated
-2020-05-29 10:57:17,146 db db_put() 79 INFO table z_accounts: 781 records written in 0 seconds
-2020-05-29 10:57:18,353 zoho get() 125 INFO module Contacts: reading page 1 of records 200
-2020-05-29 10:57:19,430 zoho get() 125 INFO module Contacts: reading page 2 of records 400
-2020-05-29 10:57:20,652 zoho get() 125 INFO module Contacts: reading page 3 of records 600
-2020-05-29 10:57:21,496 zoho get() 125 INFO module Contacts: reading page 4 of records 711
-2020-05-29 10:57:21,498 zoho get() 133 INFO module Contacts: 711 records read from 4 pages in 4 seconds
-2020-05-29 10:57:21,627 __main__ flatten_list() 39 INFO : flattened 711 records
-2020-05-29 10:57:21,631 db db_truncate() 31 INFO table z_contacts: truncated
-2020-05-29 10:57:24,272 db db_put() 79 INFO table z_contacts: 711 records written in 2 seconds
-2020-05-29 10:57:24,283 db db_select() 44 INFO query select max(timestamp) from z_deals processed
-2020-05-29 10:57:24,285 __main__ last_modified() 48 INFO table z_deals was last modified at None
-2020-05-29 10:57:25,388 zoho get() 125 INFO module deals: reading page 1 of records 200
-2020-05-29 10:57:26,430 zoho get() 125 INFO module deals: reading page 2 of records 400
-2020-05-29 10:57:27,306 zoho get() 125 INFO module deals: reading page 3 of records 600
-2020-05-29 10:57:28,407 zoho get() 125 INFO module deals: reading page 4 of records 800
-2020-05-29 10:57:29,304 zoho get() 125 INFO module deals: reading page 5 of records 1000
-2020-05-29 10:57:30,274 zoho get() 125 INFO module deals: reading page 6 of records 1200
-2020-05-29 10:57:31,238 zoho get() 125 INFO module deals: reading page 7 of records 1400
-2020-05-29 10:57:32,103 zoho get() 125 INFO module deals: reading page 8 of records 1600
-2020-05-29 10:57:33,577 zoho get() 125 INFO module deals: reading page 9 of records 1800
-2020-05-29 10:57:34,440 zoho get() 125 INFO module deals: reading page 10 of records 2000
-2020-05-29 10:57:35,331 zoho get() 125 INFO module deals: reading page 11 of records 2200
-2020-05-29 10:57:36,320 zoho get() 125 INFO module deals: reading page 12 of records 2400
-2020-05-29 10:57:37,232 zoho get() 125 INFO module deals: reading page 13 of records 2600
-2020-05-29 10:57:38,094 zoho get() 125 INFO module deals: reading page 14 of records 2800
-2020-05-29 10:57:39,014 zoho get() 125 INFO module deals: reading page 15 of records 3000
-2020-05-29 10:57:40,047 zoho get() 125 INFO module deals: reading page 16 of records 3200
-2020-05-29 10:57:41,012 zoho get() 125 INFO module deals: reading page 17 of records 3400
-2020-05-29 10:57:41,914 zoho get() 125 INFO module deals: reading page 18 of records 3600
-2020-05-29 10:57:42,844 zoho get() 125 INFO module deals: reading page 19 of records 3800
-2020-05-29 10:57:43,768 zoho get() 125 INFO module deals: reading page 20 of records 4000
-2020-05-29 10:57:44,408 zoho get() 125 INFO module deals: reading page 21 of records 4025
-2020-05-29 10:57:44,410 zoho get() 133 INFO module deals: 4025 records read from 21 pages in 20 seconds
-2020-05-29 10:57:44,873 __main__ flatten_list() 39 INFO : flattened 4025 records
-2020-05-29 10:57:44,886 db db_truncate() 31 INFO table z_deals: truncated
-2020-05-29 10:57:51,751 db db_put() 79 INFO table z_deals: 4025 records written in 6 seconds
-2020-05-29 10:57:52,223 db db_get() 66 INFO table v_update_customer_addresses: 0 records read in 0 seconds
-2020-05-29 10:57:52,227 bill update_by_id() 92 INFO module customer-addresses: 0 records success 0 errors 0 in 0 seconds updated
-2020-05-29 10:57:52,267 db db_get() 66 INFO table v_insert_customer_addresses: 0 records read in 0 seconds
-2020-05-29 10:57:52,271 bill insert() 114 INFO module customer-addresses: 0 records success 0 errors 0 in 0 seconds inserted
-2020-05-29 10:57:52,566 db db_get() 66 INFO table v_update_customers: 0 records read in 0 seconds
-2020-05-29 10:57:52,569 bill update_by_id() 92 INFO module customers: 0 records success 0 errors 0 in 0 seconds updated
-2020-05-29 10:57:52,605 db db_get() 66 INFO table v_insert_customers: 0 records read in 0 seconds
-2020-05-29 10:57:52,608 bill insert() 114 INFO module customers: 0 records success 0 errors 0 in 0 seconds inserted
-2020-05-29 10:58:21,685 bill get() 43 INFO module customers: 7514 records from 31 pages success 31 errors 0 in 29 seconds read
-2020-05-29 10:58:21,693 db db_truncate() 31 INFO table b_customer: truncated
-2020-05-29 10:58:26,011 db db_put() 79 INFO table b_customer: 7514 records written in 4 seconds
-2020-05-29 10:59:03,418 bill get() 43 INFO module customer-addresses: 7979 records from 32 pages success 32 errors 0 in 37 seconds read
-2020-05-29 10:59:03,425 db db_truncate() 31 INFO table b_address: truncated
-2020-05-29 10:59:15,459 db db_put() 79 INFO table b_address: 7979 records written in 12 seconds
-2020-05-29 11:01:50,080 bill get() 43 INFO module orders: 13122 records from 53 pages success 53 errors 0 in 154 seconds read
-2020-05-29 11:01:55,582 __main__ flatten_list() 39 INFO : flattened 13122 records
-2020-05-29 11:01:55,774 db db_truncate() 31 INFO table b_order: truncated
-2020-05-29 11:03:06,782 db db_put() 79 INFO table b_order: 13122 records written in 71 seconds
-2020-05-29 11:03:07,857 __main__ make_orderitems() 28 INFO : processed 26084 records
-2020-05-29 11:03:10,069 __main__ flatten_list() 39 INFO : flattened 26084 records
-2020-05-29 11:03:10,115 db db_truncate() 31 INFO table b_orderitem: truncated
-2020-05-29 11:03:22,014 db db_put() 79 INFO table b_orderitem: 26084 records written in 11 seconds
-2020-05-29 11:03:23,029 db db_get() 66 INFO table v_update_accounts: 688 records read in 0 seconds
-2020-05-29 11:03:23,072 __main__ flatten_list() 39 INFO : flattened 688 records
-2020-05-29 11:03:25,198 zoho upsert() 104 INFO module Accounts: upserting page 1 of 688 records success 100 errors 0
-2020-05-29 11:03:27,487 zoho upsert() 104 INFO module Accounts: upserting page 2 of 688 records success 200 errors 0
-2020-05-29 11:03:29,574 zoho upsert() 96 INFO 200 code: {'code': 'INVALID_DATA', 'details': {'expected_data_type': 'email', 'api_name': 'Info_Email'}, 'message': 'invalid data', 'status': 'error'} 
-data: {'Account_Name': 'IQ-Smoker', 'Phone': None, 'Account_Number': '   1112437', 'Account_Type': 'Späti / Kiosk', 'Billing_Street': 'Hafenstr 58', 'Billing_Code': '41460', 'Billing_City': 'Neuss', 'FAX': None, 'Info_Email': 'soltanpoor@gmx', 'Rating': 'Inaktiv', 'Industry': 'Einzelhandel', 'Change_in_BillBee': False, 'BillBeeId': 72992830}
-
-2020-05-29 11:03:29,576 zoho upsert() 104 INFO module Accounts: upserting page 3 of 688 records success 299 errors 1
-2020-05-29 11:03:31,688 zoho upsert() 104 INFO module Accounts: upserting page 4 of 688 records success 399 errors 1
-2020-05-29 11:03:33,964 zoho upsert() 96 INFO 400 code: {'code': 'INVALID_DATA', 'details': {'expected_data_type': 'email', 'api_name': 'Info_Email'}, 'message': 'invalid data', 'status': 'error'} 
-data: {'Account_Name': 'meinspätkauf.de', 'Phone': '03093518501', 'Account_Number': '       248', 'Account_Type': 'Späti / Kiosk', 'Billing_Street': 'Schönhauser Allee 45', 'Billing_Code': '10437', 'Billing_City': 'Berlin', 'FAX': None, 'Info_Email': 'info@meinspätkauf.de', 'Rating': 'Inaktiv', 'Industry': 'Einzelhandel', 'Change_in_BillBee': False, 'BillBeeId': 44679123}
-
-2020-05-29 11:03:33,969 zoho upsert() 104 INFO module Accounts: upserting page 5 of 688 records success 498 errors 2
-2020-05-29 11:03:36,303 zoho upsert() 96 INFO 500 code: {'code': 'INVALID_DATA', 'details': {'expected_data_type': 'email', 'api_name': 'Info_Email'}, 'message': 'invalid data', 'status': 'error'} 
-data: {'Account_Name': 'RuS Kotte UG', 'Phone': '015234034481', 'Account_Number': '   1112355', 'Account_Type': 'Späti / Kiosk', 'Billing_Street': 'Alte Hünxer Strasse 8', 'Billing_Code': '46562', 'Billing_City': 'Voerde-Friedrichsfeld', 'FAX': None, 'Info_Email': 'kotte-claudia@-online.de', 'Rating': 'Inaktiv', 'Industry': 'Einzelhandel', 'Change_in_BillBee': False, 'BillBeeId': 71912006}
-
-2020-05-29 11:03:36,305 zoho upsert() 104 INFO module Accounts: upserting page 6 of 688 records success 597 errors 3
-2020-05-29 11:03:38,168 zoho upsert() 104 INFO module Accounts: upserting page 7 of 688 records success 685 errors 3
-2020-05-29 11:03:38,169 zoho upsert() 106 INFO module Accounts: 688 records success 685 errors 3 in 15 seconds inserted / updated
-2020-05-29 11:03:38,935 zoho get() 125 INFO module Accounts: reading page 1 of records 200
-2020-05-29 11:03:39,867 zoho get() 125 INFO module Accounts: reading page 2 of records 400
-2020-05-29 11:03:40,678 zoho get() 125 INFO module Accounts: reading page 3 of records 600
-2020-05-29 11:03:41,477 zoho get() 125 INFO module Accounts: reading page 4 of records 783
-2020-05-29 11:03:41,480 zoho get() 133 INFO module Accounts: 783 records read from 4 pages in 3 seconds
-2020-05-29 11:03:41,568 __main__ flatten_list() 39 INFO : flattened 783 records
-2020-05-29 11:03:41,575 db db_truncate() 31 INFO table z_accounts: truncated
-2020-05-29 11:03:43,783 db db_put() 79 INFO table z_accounts: 783 records written in 2 seconds
-2020-05-29 11:03:44,238 db db_get() 66 INFO table v_update_contacts: 7 records read in 0 seconds
-2020-05-29 11:03:44,243 __main__ flatten_list() 39 INFO : flattened 7 records
-2020-05-29 11:03:45,131 zoho upsert() 96 INFO 0 code: {'code': 'INVALID_DATA', 'details': {'expected_data_type': 'email', 'api_name': 'Email'}, 'message': 'invalid data', 'status': 'error'} 
-data: {'First_Name': 'Claudia', 'Last_Name': 'Kotte', 'Lead_Source': None, 'Account_Name': 'RuS Kotte UG', 'Email': 'kotte-claudia@-online.de', 'Full_Name': 'Claudia Kotte', 'Phone': '015234034481', 'Mobile': '015234034481', 'FAX': None, 'Mailing_Street': 'Alte Hünxer Strasse 8', 'Mailing_City': 'Voerde-Friedrichsfeld', 'Mailing_State': None, 'Mailing_Zip': '46562', 'Mailing_Country': 'DE', 'Change_in_BillBee': False, 'BillBeeId': 85681088}
-
-2020-05-29 11:03:45,133 zoho upsert() 104 INFO module Contacts: upserting page 1 of 7 records success 6 errors 1
-2020-05-29 11:03:45,134 zoho upsert() 106 INFO module Contacts: 7 records success 6 errors 1 in 0 seconds inserted / updated
-2020-05-29 11:03:46,531 zoho get() 125 INFO module Contacts: reading page 1 of records 200
-2020-05-29 11:03:47,582 zoho get() 125 INFO module Contacts: reading page 2 of records 400
-2020-05-29 11:03:48,630 zoho get() 125 INFO module Contacts: reading page 3 of records 600
-2020-05-29 11:03:49,597 zoho get() 125 INFO module Contacts: reading page 4 of records 714
-2020-05-29 11:03:49,599 zoho get() 133 INFO module Contacts: 714 records read from 4 pages in 4 seconds
-2020-05-29 11:03:49,694 __main__ flatten_list() 39 INFO : flattened 714 records
-2020-05-29 11:03:49,708 db db_truncate() 31 INFO table z_contacts: truncated
-2020-05-29 11:03:52,343 db db_put() 79 INFO table z_contacts: 714 records written in 2 seconds
-2020-05-29 11:03:54,010 db db_get() 66 INFO table v_update_deals: 29 records read in 1 seconds
-2020-05-29 11:03:54,015 __main__ flatten_list() 39 INFO : flattened 29 records
-2020-05-29 11:03:55,472 zoho upsert() 104 INFO module Deals: upserting page 1 of 29 records success 29 errors 0
-2020-05-29 11:03:55,475 zoho upsert() 106 INFO module Deals: 29 records success 29 errors 0 in 1 seconds inserted / updated
-2020-05-29 11:03:55,483 db db_select() 44 INFO query select max(timestamp) from z_deals processed
-2020-05-29 11:03:55,485 __main__ last_modified() 48 INFO table z_deals was last modified at 2020-05-29T10:57:51
-2020-05-29 11:03:56,870 zoho get() 125 INFO module deals: reading page 1 of records 200
-2020-05-29 11:03:58,183 zoho get() 125 INFO module deals: reading page 2 of records 400
-2020-05-29 11:03:59,093 zoho get() 125 INFO module deals: reading page 3 of records 600
-2020-05-29 11:04:00,011 zoho get() 125 INFO module deals: reading page 4 of records 800
-2020-05-29 11:04:00,945 zoho get() 125 INFO module deals: reading page 5 of records 1000
-2020-05-29 11:04:02,141 zoho get() 125 INFO module deals: reading page 6 of records 1200
-2020-05-29 11:04:03,092 zoho get() 125 INFO module deals: reading page 7 of records 1400
-2020-05-29 11:04:04,558 zoho get() 125 INFO module deals: reading page 8 of records 1600
-2020-05-29 11:04:06,067 zoho get() 125 INFO module deals: reading page 9 of records 1800
-2020-05-29 11:04:06,874 zoho get() 125 INFO module deals: reading page 10 of records 2000
-2020-05-29 11:04:08,084 zoho get() 125 INFO module deals: reading page 11 of records 2200
-2020-05-29 11:04:09,421 zoho get() 125 INFO module deals: reading page 12 of records 2400
-2020-05-29 11:04:10,413 zoho get() 125 INFO module deals: reading page 13 of records 2600
-2020-05-29 11:04:11,280 zoho get() 125 INFO module deals: reading page 14 of records 2800
-2020-05-29 11:04:12,223 zoho get() 125 INFO module deals: reading page 15 of records 3000
-2020-05-29 11:04:13,121 zoho get() 125 INFO module deals: reading page 16 of records 3200
-2020-05-29 11:04:14,396 zoho get() 125 INFO module deals: reading page 17 of records 3400
-2020-05-29 11:04:15,185 zoho get() 125 INFO module deals: reading page 18 of records 3600
-2020-05-29 11:04:16,086 zoho get() 125 INFO module deals: reading page 19 of records 3800
-2020-05-29 11:04:16,990 zoho get() 125 INFO module deals: reading page 20 of records 4000
-2020-05-29 11:04:17,613 zoho get() 125 INFO module deals: reading page 21 of records 4026
-2020-05-29 11:04:17,615 zoho get() 133 INFO module deals: 4026 records read from 21 pages in 22 seconds
-2020-05-29 11:04:18,312 __main__ flatten_list() 39 INFO : flattened 4026 records
-2020-05-29 11:04:18,326 db db_truncate() 31 INFO table z_deals: truncated
-2020-05-29 11:04:24,854 db db_put() 79 INFO table z_deals: 4026 records written in 6 seconds
-2020-05-29 11:04:25,219 db db_get() 66 INFO table v_reset_accounts_change_in_billbee: 0 records read in 0 seconds
-2020-05-29 11:04:25,221 zoho update_by_id() 50 INFO module Accounts: 0 records success 0 errors 0 in 0 seconds updated
+2020-06-03 14:55:07,665 zoho get() 129 INFO module Accounts: 683 records read from 4 pages in 4 seconds
+2020-06-03 14:55:07,857 db db_truncate() 31 INFO table z_accounts: truncated
+2020-06-03 14:55:09,962 db db_put() 79 INFO table z_accounts: 683 records written in 2 seconds
+2020-06-03 14:55:15,022 zoho get() 129 INFO module Contacts: 743 records read from 4 pages in 5 seconds
+2020-06-03 14:55:15,120 db db_truncate() 31 INFO table z_contacts: truncated
+2020-06-03 14:55:17,626 db db_put() 79 INFO table z_contacts: 743 records written in 2 seconds
+2020-06-03 14:55:17,635 db db_select() 44 INFO query select max(timestamp) from z_deals processed
+2020-06-03 14:55:17,635 __main__ last_modified() 48 INFO table z_deals was last modified at 2020-06-03T12:00:49
+2020-06-03 14:55:37,887 zoho get() 129 INFO module deals: 4054 records read from 21 pages in 20 seconds
+2020-06-03 14:55:38,618 db db_truncate() 31 INFO table z_deals: truncated
+2020-06-03 14:55:41,143 db db_put() 79 INFO table z_deals: 4054 records written in 2 seconds
+2020-06-03 14:55:41,578 db db_get() 66 INFO table v_update_customer_addresses: 0 records read in 0 seconds
+2020-06-03 14:55:41,958 db db_get() 66 INFO table v_update_customers: 0 records read in 0 seconds
+2020-06-03 14:55:42,023 db db_get() 66 INFO table v_insert_customers: 0 records read in 0 seconds
+2020-06-03 14:56:04,507 bill get() 50 INFO module customers: 7575 records from 31 pages success 31 errors 0 in 22 seconds read
+2020-06-03 14:56:04,510 db db_truncate() 31 INFO table b_customer: truncated
+2020-06-03 14:56:08,823 db db_put() 79 INFO table b_customer: 7575 records written in 4 seconds
+2020-06-03 14:56:54,317 bill get() 50 INFO module customer-addresses: 8044 records from 33 pages success 33 errors 0 in 45 seconds read
+2020-06-03 14:56:54,319 db db_truncate() 31 INFO table b_address: truncated
+2020-06-03 14:57:06,519 db db_put() 79 INFO table b_address: 8044 records written in 12 seconds
+2020-06-03 14:58:50,126 bill get() 50 INFO module orders: 13249 records from 53 pages success 53 errors 0 in 103 seconds read
+2020-06-03 14:58:55,536 db db_truncate() 31 INFO table b_order: truncated
+2020-06-03 15:00:06,380 db db_put() 79 INFO table b_order: 13249 records written in 70 seconds
+2020-06-03 15:00:07,920 __main__ make_orderitems() 29 INFO : processed 26326 records
+2020-06-03 15:00:10,802 db db_truncate() 31 INFO table b_orderitem: truncated
+2020-06-03 15:00:23,279 db db_put() 79 INFO table b_orderitem: 26326 records written in 12 seconds
+2020-06-03 15:00:24,280 db db_get() 66 INFO table v_update_accounts: 1 records read in 0 seconds
+2020-06-03 15:00:25,388 zoho upsert() 103 INFO module Accounts: 1 records success 1 errors 0 in 1 seconds inserted / updated
+2020-06-03 15:00:29,415 zoho get() 129 INFO module Accounts: 684 records read from 4 pages in 4 seconds
+2020-06-03 15:00:29,489 db db_truncate() 31 INFO table z_accounts: truncated
+2020-06-03 15:00:31,539 db db_put() 79 INFO table z_accounts: 684 records written in 2 seconds
+2020-06-03 15:00:32,604 db db_get() 66 INFO table v_update_contacts: 0 records read in 1 seconds
+2020-06-03 15:00:35,638 db db_get() 66 INFO table v_update_deals: 11 records read in 3 seconds
+2020-06-03 15:00:37,447 zoho upsert() 103 INFO module Deals: 11 records success 11 errors 0 in 1 seconds inserted / updated
+2020-06-03 15:00:37,454 db db_select() 44 INFO query select max(timestamp) from z_deals processed
+2020-06-03 15:00:37,454 __main__ last_modified() 48 INFO table z_deals was last modified at 2020-06-03T14:55:41
+2020-06-03 15:00:58,846 zoho get() 129 INFO module deals: 4059 records read from 21 pages in 21 seconds
+2020-06-03 15:00:59,419 db db_truncate() 31 INFO table z_deals: truncated
+2020-06-03 15:01:06,552 db db_put() 79 INFO table z_deals: 4059 records written in 7 seconds
+2020-06-03 15:01:06,934 db db_get() 66 INFO table v_reset_accounts_change_in_billbee: 0 records read in 0 seconds
+2020-06-03 15:01:06,977 db db_get() 66 INFO table v_reset_contacts_change_in_billbee: 0 records read in 0 seconds
+2020-06-03 15:01:06,979 db db_truncate() 31 INFO table b_customer_: truncated
+2020-06-03 15:01:07,017 db db_copy() 55 INFO table b_customer: copied to b_customer_
+2020-06-03 15:01:07,019 db db_truncate() 31 INFO table b_address_: truncated
+2020-06-03 15:01:07,071 db db_copy() 55 INFO table b_address: copied to b_address_
+2020-06-03 15:01:07,073 db db_truncate() 31 INFO table b_order_: truncated
+2020-06-03 15:01:07,476 db db_copy() 55 INFO table b_order: copied to b_order_
+2020-06-03 15:01:07,478 db db_truncate() 31 INFO table b_orderitem_: truncated
+2020-06-03 15:01:07,603 db db_copy() 55 INFO table b_orderitem: copied to b_orderitem_
+2020-06-03 15:01:07,605 db db_truncate() 31 INFO table z_accounts_: truncated
+2020-06-03 15:01:07,617 db db_copy() 55 INFO table z_accounts: copied to z_accounts_
+2020-06-03 15:01:07,619 db db_truncate() 31 INFO table z_contacts_: truncated
+2020-06-03 15:01:07,633 db db_copy() 55 INFO table z_contacts: copied to z_contacts_
+2020-06-03 15:01:07,635 db db_truncate() 31 INFO table z_deals_: truncated
+2020-06-03 15:01:07,688 db db_copy() 55 INFO table z_deals: copied to z_deals_

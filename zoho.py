@@ -37,15 +37,17 @@ def update_by_id(modul,data):
 			log.debug(f'url created {u}')
 			x.pop("id")
 			x = {"data":[x]}
-			jdata = json.dumps(x)
-			log.debug(f'json data created {jdata}')
-			r = requests.put(u, headers=header,data=jdata)
-			success = success + 1
-			log.debug(f'processed put request: {r.text}')
+			r = requests.put(u, headers=header,json=x)
+			j = json.loads(r.text)
+			for d in j["data"]:
+				if d["code"] == 'SUCCESS':
+					success = success + 1
+				else:
+					error = error + 1
+					log.info(f'{r.text}')
 		except Exception as ex:
 			error = error + 1
 			log.error(f'{ex}')
-		#log.fine(f'id processed {id}')
 	end = datetime.datetime.now()
 	log.info(f'module {modul}: {len(data)} records success {success} errors {error} in {(end-start).seconds} seconds updated')
 	print(f'module {modul}: {len(data)} records with id {id} success {success} errors {error} in {(end-start).seconds} seconds updated')
@@ -83,25 +85,20 @@ def upsert(modul,data):
 		try:
 			z = data[n:n+maxwrite]
 			z = {"data":z}
-			jdata = json.dumps(z)
-			r = requests.post(u, headers=header,data=jdata)
-			#log.fine(f'processed records from {n} to {n+maxwrite}')
+			r = requests.post(u, headers=header,json=z)
 			j = json.loads(r.text)
-			m = 0
 			for d in j["data"]:
 				if d["code"] == 'SUCCESS':
 					success = success + 1
 				else:
 					error = error + 1
-					log.info(f'{n} code: {d} \ndata: {z["data"][m]}\n')
-				m=m+1
+					log.info(f'{r.text}')
 			n= n + maxwrite
 		except Exception as ex:
 			error = error + 1
 			log.error(f'{ex}')
 			log.debug(f'data: {d}')
 		print(f'module {modul}: upserting page {page} of {len(data)} records success {success} errors {error}')
-		log.info(f'module {modul}: upserting page {page} of {len(data)} records success {success} errors {error}')
 	end = datetime.datetime.now()
 	log.info(f'module {modul}: {len(data)} records success {success} errors {error} in {(end-start).seconds} seconds inserted / updated')
 	print(f'module {modul}: {len(data)} records success {success} errors {error} in {(end-start).seconds} seconds inserted / updated')
@@ -122,7 +119,6 @@ def get(modul,fromTime='2000-01-01T00:00:00',maxpages=0):
 				more_records = json.loads(r.text)['info']['more_records']
 				lis = lis + json.loads(r.text)['data']
 				print(f'module {modul}: reading page {page} of records {len(lis)}')
-				log.info(f'module {modul}: reading page {page} of records {len(lis)}')
 			else:
 				more_records = False
 			log.debug(f'request: {r.text}')

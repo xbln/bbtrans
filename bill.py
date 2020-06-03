@@ -1,4 +1,5 @@
 import requests
+from requests_toolbelt.utils import dump
 import json
 import logging
 import datetime
@@ -24,14 +25,20 @@ def get(modul, fromTime='2000-01-01T00:00:00',id='Id',maxpages=0):
 				page = page + 1
 				parms = {'pageSize':'250','modifiedAtMin':fromTime,'page':str(page)}
 				r = requests.get(url+modul, headers=header, auth=aut, params=parms)
+				t = json.loads(r.text)
+				if "ErrorMessage" in t:
+					if t["ErrorMessage"] == None:
+						success = success + 1
+					else:
+						log.info(f'{r.text}')
+						error = error + 1
+				else:
+					success = success + 1
 				if page == 1:
-					totalpage = json.loads(r.text)['Paging']['TotalPages']
-				lis = lis + json.loads(r.text)['Data']
+					totalpage = t['Paging']['TotalPages']
+				lis = lis + t['Data']
 				time.sleep(0.5)
 				print(f'Executing Page {page} of {totalpage} in module {modul} records {len(lis)}')
-				#log.fine(f'page {page} processed')
-				success = success + 1
-				log.debug(f'request: {r.text}')
 				# billbee allows only 2 transactions per second
 			except Exception as ex:
 				error = error + 1
@@ -51,8 +58,16 @@ def get_specific(modul, data, id):
 		try:
 			u = url + modul + '/' + str(x[id])
 			r = requests.get(u, headers=header, auth=aut)
-			#if i == 1: logging.debug(f'{module}: r.text: {r.text}')
-			j = json.loads(r.text)['Data']
+			t = json.loads(r.text)
+			if "ErrorMessage" in t:
+				if t["ErrorMessage"] == None:
+					success = success + 1
+				else:
+					log.info(f'{r.text}')
+					error = error + 1
+			else:
+				success = success + 1
+			j = t['Data']
 			success = success + 1
 			log.debug(f'processing id {id} in {modul} len(result): {len(x)}')
 		except Exception as ex:
@@ -77,10 +92,16 @@ def update_by_id(modul,data):
 			id = x['id']
 			u = url + modul + '/' + str(id)
 			x.pop('id')
-			r = requests.put(u,headers=header, auth=aut, data=x)
-			#log.fine(f'id processed {id}')
-			success = success + 1
-			log.info(f'processed put request: {r.text} \n\n')
+			r = requests.put(u,headers=header, auth=aut, json=x)
+			t = json.loads(r.text)
+			if "ErrorMessage" in t:
+				if t["ErrorMessage"] == None:
+					success = success + 1
+				else:
+					log.info(f'{r.text}')
+					error = error + 1
+			else:
+				success = success + 1
 		except Exception as ex:
 			error = error + 1
 			log.error(f'{ex}')
@@ -99,10 +120,17 @@ def insert(modul,data):
 	for x in data:
 		try:
 			u = url + modul
-			r = requests.post(u,headers=header, auth=aut, data=x)
-			#log.fine(f'id processed {id}')
-			success = success + 1
-			log.info(f'processed put request: {r.text} \n\n')
+			r = requests.post(u,headers=header, auth=aut, json=x)
+			#r = requests.post("http://httpbin.org/post", json=x)
+			t = json.loads(r.text)
+			if "ErrorMessage" in t:
+				if t["ErrorMessage"] == None:
+					success = success + 1
+				else:
+					log.info(f'{r.text}')
+					error = error + 1
+			else:
+				success = success + 1
 		except Exception as ex:
 			error = error + 1
 			log.error(f'{ex}')
